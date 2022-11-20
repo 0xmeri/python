@@ -1,0 +1,3 @@
+42 kez "merhaba" kelimesini yazacak bir program yazın.
+--
+print("hi" * 42)
