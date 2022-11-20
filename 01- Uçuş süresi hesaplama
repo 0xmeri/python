@@ -1,0 +1,12 @@
+
+Soru 01
+
+Los Angeles'tan Sidney'e uçuyorsunuz, 7425 mil mesafe kat ediyorsunuz, uçak saatte ortalama 550 mil hızla uçuyor.
+
+Toplam uçuş süresini saat cinsinden hesaplayın ve çıktısını alın.
+
+--
+x=7425
+y=550
+h=(x/y)
+print(float(h))
