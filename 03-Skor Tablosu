@@ -1,0 +1,21 @@
+Skor tablosu için bir program yapmanız gerekiyor. 
+
+Programın 1'den 7'e kadar olan sayıları, her biri ayrı bir satırda ve ardından bir nokta ile çıktılaması gerekir:
+
+1.
+
+2.
+
+3.
+
+...
+
+--
+print(""" 1.
+2.
+3.
+4.
+5.
+6.
+7.
+""")
