@@ -1,0 +1,34 @@
+while Loops
+
+1) İşte 1'den 5'e kadar sayan bir değişken içeren bir while döngüsü, bu noktada döngü sona erer.
+
+i = 1
+while i <=5:
+   print(i)
+   i = i + 1
+
+print("Finished!")
+
+
+2) 1 ile 10 arasındaki çift ve tek sayıları ayırmak için bir while döngüsü içinde bir if/else ifadesi kullanalım.
+
+x = 1
+while x < 10:
+  if x%2 == 0:
+    print(str(x) + " is even")
+  else:
+    print(str(x) + " is odd")
+
+  x += 1
+  
+  ÇIKTI: 
+  
+1 is odd
+2 is even
+3 is odd
+4 is even
+5 is odd
+6 is even
+7 is odd
+8 is even
+9 is odd
