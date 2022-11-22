@@ -1,0 +1,11 @@
+
+Restoran da ödenen hesaba göre %20 oranında bahşiş bırakmak için basit bir hesap makinası yapalım.
+
+hesap 50 olsun 
+çıktısı 10.0 olsun
+
+
+-- 
+
+bill = int(input())
+print(float((bill / 100) * 20))
