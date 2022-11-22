@@ -1,0 +1,11 @@
+Suyun kaynayıp kaynamadığını kontrol eden bir program yazalım. 
+
+Santigrat cinsinden tamsayı sıcaklığını giriş olarak alın ve sıcaklık 100'ün üzerinde veya ona eşitse "Boiling" çıktısını alın.
+
+---
+
+
+temp = int(input())
+
+if temp >= 100:
+    print("Boiling")
