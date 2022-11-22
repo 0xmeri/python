@@ -1,0 +1,37 @@
+Geçerli bir if/else ifadesi oluşturalım
+1) 
+
+grade = 87
+if (grade>=75) :
+   print("Passed!")
+else:
+   print("Failed")
+
+2) 
+
+
+x = 10
+y = 20
+if
+ x > y 
+:
+   print("if statement")
+else:
+   print("else statement")
+   
+3)
+
+num = 3
+if num == 1:
+  print("One")
+elif num == 2:
+  print("Two")
+elif num == 3: 
+  print("Three")
+else: 
+  print("Something else")
+  
+  
+  ( else if'in kısa hali elif )
+   
+   
