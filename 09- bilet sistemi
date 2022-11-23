@@ -1,0 +1,28 @@
+Bir biletleme sistemi yapıyorsunuz.
+
+Tek bilet fiyatı 100 TL'dir.
+
+3 yaşından küçük çocuklar için bilet ücretsizdir.
+
+Programınız 5 yolcunun yaşını girdi olarak almalı ve biletlerinin toplam fiyatını çıkarmalıdır.
+Örnek Giriş
+18
+24
+2
+5
+42
+Örnek Çıktı 
+400
+
+
+--
+
+total = 0
+i = 0
+while i < 5:
+    age = int(input())
+    i = i +1
+    if age < 3:
+        continue
+    total +=100
+print(total)
