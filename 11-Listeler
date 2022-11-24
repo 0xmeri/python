@@ -1,0 +1,25 @@
+Bir giriş dizisini alan ve dizinin 3. karakterini çıkaran bir program yazın.
+
+--
+
+text = input()
+print(text[2])
+
+
+Bu kodun çıktısını tahmin edin:
+--
+str = "Merhaba dünya!"
+input(str[7])
+
+"a"
+
+Bir sayı listesi verildiğinde , girdi numarasını içeriyorsa " bingo " çıktısını alın.
+Numara bulunamazsa herhangi bir çıktı almayın.
+
+
+x = [42, 8, 7, 1, 0, 124, 8897, 555, 3, 67, 99]
+
+num = int(input())
+if num in x:
+    print("bingo")
+
